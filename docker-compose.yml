@@ -2,7 +2,7 @@ version: '3'
 
 services:
   fronted:
-    build: ./frontend
+    image: mastermind8/time-application-front-dev #build: ./frontend
     restart: always
     ports:
       - '3000:3000'
@@ -10,7 +10,7 @@ services:
       - /app/node_modules
       - ./frontend:/app
   api:
-    build: ./api
+    image: mastermind8/time-application-api-dev #build: ./api
     restart: always
     ports:
       - '5555:5000'

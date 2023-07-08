@@ -13,5 +13,5 @@ Database is MySQL
 
 ### Run application
 ```sh
-docker-compose up --build
+docker-compose up -d
 ```
