@@ -12,4 +12,6 @@ Database is MySQL
 ![2.jpg](db.png)
 
 ### Run application
-> docker-compose up --build
+```sh
+docker-compose up --build
+```
